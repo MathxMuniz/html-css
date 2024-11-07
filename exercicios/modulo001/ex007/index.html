@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatção de texto</title>
+    <style>
+      mark {
+        background-color: lime;
+      }
+    </style>
+    <!--Apenas servirá para os marks desta pagina-->
+  </head>
+  <body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>
+      Nessa frase temos um <b>termo em Negrito</b> usando a tag &lt;b&gt;(não
+      semaantica)
+    </p>
+    <p>
+      Nessa frase temos um <strong>termo em Destaque</strong> usando a tag
+      &lt;strong&gt;(semantica)
+    </p>
+    <!--b da forma-->
+    <!--strong da sentiido e forma-->
+    <h2>Italico / Enfase</h2>
+    <p>
+      Nessa frase temo um <i>termo em italico</i> usando a tag &lt;i&gt;(não
+      semantica)
+    </p>
+    <!-- (envelopamento) seleciona o texto + ctrl + shift + p - da enter e digita a tag-->
+    <p>
+      Nesta frase temos um <em>termo em enfase</em> usando a tag
+      &lt;em&gt;(semantica)
+    </p>
+    <!--Sempre que for usar negrito ou itaico usar strong ou em respectivamente-->
+    <h2>Texto marcado</h2>
+    <p>
+      Podemos criar tambem <mark>um texto marcado</mark> usando a tag
+      &lt;mark&gt;.
+    </p>
+    <!--cor da marcação iremos usar css-->
+    <p>
+      E num outro paragrafo, temos <mark>outro texto marcado no final</mark>
+    </p>
+    <!--Ele não herda a caracteristica da marcação anterior, por isso devemos usar o css para fazer essa mudança-->
+    <h2>Texto grande e pequeno</h2>
+    <p>
+      Estamos criando um <big>texto grande</big> e um
+      <small>texto pequeno</small> nesse paragrafo.
+    </p>
+    <!--big já se encontra obsoleto, porém o small pode ser usado como observações, dando sentido como o final de um contrato "Leia as letras pequenas"-->
+    <h2>Texto deletado</h2>
+    <p>
+      Podemos marcar um <del>texto como excluido</del> para indicar que ele deve
+      ser lido, mas não considerado.
+    </p>
+    <h2>Texto inserido</h2>
+    <p>
+      Podemos marcar um <ins>texto como inserido</ins> para dar um enfase e
+      indicar que ele foi adicionado depois.
+    </p>
+    <p>
+      Existe tambem o <u>texto sublinhado</u> com a tag &lt;u&gt;(não
+      semantica).
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup> + 3.</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O.</p>
+  </body>
+</html>

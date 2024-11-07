@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+  Em HTML é ID = Em CSS é #!
+  Em HTML é CLASS = Em CSS é .!
+*/
+/*
+  Regra do W3C, usar um ID somente uma vez, mesmo que funcione!
+  Use um classe!
+*/
+/*
+  Dê nome a suas formas de acordo com a funcionalidade e não sua forma!
+*/
+
+body{
+  background-color: #d6fde9;
+  font: Arial, Helvetica, sans-serif;
+
+}
+h1{
+  color: #1e402f;
+
+}
+
+h1#principal {
+  text-align: center;
+  background-color: #3c805e;
+  color: white;
+}
+
+h2{
+  color: #3c805e;
+}
+
+.basico{
+  color: #3c805e;
+  font-weight: bold;
+}
+.intermediario{
+  color: #7e803c;
+}
+.avancado{
+  color: #803c3c;
+}
+.destaque{
+  background-color: #c5c56465;
+}
